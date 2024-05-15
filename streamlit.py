@@ -3,11 +3,11 @@ import streamlit as st
 def main():
 
     st.title("My Jop Posting APP")
-st.image('https://craresources.com/wp-content/uploads/2022/07/Shutterstock_1248459142-job-search.jpg', use_column_width=True)
- #st.image('https://craresources.com/wp-content/uploads/2022/07/Shutterstock_1248459142-job-search.jpg', use_column_width=True)
-#st.image('https://craresources.com/wp-content/uploads/2022/07/Shutterstock_1248459142-job-search.jpg', use_column_width=True)
-#st.image('https://craresources.com/wp-content/uploads/2022/07/Shutterstock_1248459142-job-search.jpg', use_column_width=True)
-#st.image('https://craresources.com/wp-content/uploads/2022/07/Shutterstock_1248459142-job-search.jpg', use_column_width=True)
+st.image('Q1-1'.png, use_column_width=True)
+st.image('Q1-2.png', use_column_width=True)
+st.image('Q2.png', use_column_width=True)
+st.image('Q3-1.png', use_column_width=True)
+st.image('Q3-2.png', use_column_width=True)
     name = st.text_input("Enter your name", "")
 
    
