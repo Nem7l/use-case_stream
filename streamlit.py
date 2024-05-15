@@ -4,9 +4,8 @@ def main():
 
     st.title("My Jop-posting app")
 
-    header_container = st.beta_container()
 
-    with header_container:
+  
         st.image('https://craresources.com/wp-content/uploads/2022/07/Shutterstock_1248459142-job-search.jpg', use_column_width=True)
     
     name = st.text_input("Enter your name", "")
