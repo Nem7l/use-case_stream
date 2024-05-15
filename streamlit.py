@@ -3,7 +3,7 @@ import streamlit as st
 def main():
     st.markdown("<h1 style='text-align: center; font-weight: bold;'>My Job Posting App</h1>", unsafe_allow_html=True)
 
-    st.image('Shutterstock_1248459142-job-search-2', use_column_width=True)
+    st.image('Shutterstock_1248459142-job-search-2.jpg', use_column_width=True)
 
     st.markdown("""Jobs in Saudi Arabia: Saudi Arabia offers a wide range of job opportunities across various industries and sectors, reflecting a vibrant and diverse job market.""")
     st.markdown("""Regional Job Market: The picture depicts job postings in Saudi Arabia, specific to each region, indicating a diverse and segmented job market.""")
