@@ -9,11 +9,6 @@ def main():
     st.image('Q3-1.png', use_column_width=True)
     st.image('Q3-2.png', use_column_width=True)
 
-    # Add a plot or visualization
-    st.subheader("Data Visualization")
-    data = [1, 2, 3, 4, 5]
-    st.line_chart(data)
 
-# Run the app
 if __name__ == "__main__":
     main()
