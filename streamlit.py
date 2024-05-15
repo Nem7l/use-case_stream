@@ -13,7 +13,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.image("job-search-2.jpg", use_column_width=True)
+    st.image("Shutterstock_1248459142-job-search-2.jpg", use_column_width=True)
 
     st.write("")
 
