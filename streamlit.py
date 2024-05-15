@@ -78,7 +78,7 @@ def main():
         """
     )
     st.image("Q5.png", use_column_width=True)
- st.markdown(
+    st.markdown(
         """
         ##  
        the EDA provides a comprehensive overview of the current state of the job market in Saudi Arabia, offering valuable guidance for both job seekers and employers.
