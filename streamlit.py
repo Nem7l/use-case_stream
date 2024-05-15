@@ -77,7 +77,7 @@ def main():
         ##  Job opportunities salary can differ from city to another with the maximum salary in Riyadh as you can see in the chart below
         """
     )
-    st.image("Q4.png", use_column_width=True)
+    st.image("Q5.png", use_column_width=True)
     
 if __name__ == "__main__":
     main()
