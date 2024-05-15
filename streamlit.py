@@ -1,26 +1,22 @@
 import streamlit as st
 
 def main():
-    st.set_page_config(page_title="My Job Posting App", layout="wide")
+    st.set_page_config(page_title="Saudi Arabia Job Market", layout="wide")
 
-  
     st.markdown(
         """
-        <div style="text-align: center;">
-            <h1 style="font-weight: bold;">My Job Posting App</h1>
-            <p>Explore the dynamic job market in Saudi Arabia</p>
+        <div style="text-align: center; background-color: #f2f2f2; padding: 40px;">
+            <h1 style="font-weight: bold; color: #333;">Explore the Dynamic Job Market in Saudi Arabia</h1>
+            <p style="color: #666;">Your gateway to the latest insights and opportunities</p>
         </div>
         """,
-        unsafe_allow_html=True,
+        unsafe_allow_html=True
     )
 
-  
-    st.image("Shutterstock_1248459142-job-search-2.jpg", use_column_width=True)
+    st.image("job-search-2.jpg", use_column_width=True)
 
-    
     st.write("")
 
-    
     st.markdown(
         """
         ## Jobs in Saudi Arabia
@@ -28,7 +24,6 @@ def main():
         """
     )
 
-    
     st.markdown(
         """
         ## Regional Job Market
@@ -41,7 +36,6 @@ def main():
     with col2:
         st.image("Q1-2.png", use_column_width=True)
 
-    
     st.markdown(
         """
         ## Gender Preference
@@ -50,7 +44,6 @@ def main():
     )
     st.image("Q2.png", use_column_width=True)
 
-    
     st.markdown(
         """
         ## Salary Range for Recent Graduates
@@ -63,7 +56,6 @@ def main():
     with col2:
         st.image("Q3-2.png", use_column_width=True)
 
-    
     st.markdown(
         """
         ## Job Opportunities
@@ -74,14 +66,16 @@ def main():
 
     st.markdown(
         """
-        ##  Job opportunities salary can differ from city to another with the maximum salary in Riyadh as you can see in the chart below
+        ## Job Opportunities Salary
+        Job opportunities salary can differ from city to another with the maximum salary in Riyadh as you can see in the chart below.
         """
     )
     st.image("Q5.png", use_column_width=True)
+
     st.markdown(
         """
-        ##  
-       the EDA provides a comprehensive overview of the current state of the job market in Saudi Arabia, offering valuable guidance for both job seekers and employers.
+        ## Conclusion
+        The EDA provides a comprehensive overview of the current state of the job market in Saudi Arabia, offering valuable guidance for both job seekers and employers.
         """
     )
 
