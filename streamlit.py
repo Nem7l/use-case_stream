@@ -3,7 +3,7 @@ import streamlit as st
 def main():
     st.set_page_config(page_title="My Job Posting App", layout="wide")
 
-    # Add a header and subtitle
+  
     st.markdown(
         """
         <div style="text-align: center;">
@@ -14,13 +14,13 @@ def main():
         unsafe_allow_html=True,
     )
 
-    # Display the main image
+  
     st.image("Shutterstock_1248459142-job-search-2.jpg", use_column_width=True)
 
-    # Add some space
+    
     st.write("")
 
-    # Jobs in Saudi Arabia section
+    
     st.markdown(
         """
         ## Jobs in Saudi Arabia
@@ -28,7 +28,7 @@ def main():
         """
     )
 
-    # Regional job market section
+    
     st.markdown(
         """
         ## Regional Job Market
@@ -41,7 +41,7 @@ def main():
     with col2:
         st.image("Q1-2.png", use_column_width=True)
 
-    # Gender preference section
+    
     st.markdown(
         """
         ## Gender Preference
@@ -50,7 +50,7 @@ def main():
     )
     st.image("Q2.png", use_column_width=True)
 
-    # Salary range section
+    
     st.markdown(
         """
         ## Salary Range for Recent Graduates
@@ -63,7 +63,7 @@ def main():
     with col2:
         st.image("Q3-2.png", use_column_width=True)
 
-    # Job opportunities section
+    
     st.markdown(
         """
         ## Job Opportunities
@@ -72,5 +72,12 @@ def main():
     )
     st.image("Q4.png", use_column_width=True)
 
+     st.markdown(
+        """
+        ##  Job opportunities salary can differ from city to another with the maximum salary in Riyadh as you can see in the chart below
+        """
+    )
+    st.image("Q4.png", use_column_width=True)
+    
 if __name__ == "__main__":
     main()
