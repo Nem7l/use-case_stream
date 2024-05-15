@@ -54,7 +54,7 @@ def main():
     st.markdown(
         """
         ## Salary Range for Recent Graduates
-        The picture illustrates the expected salary for recent graduates, which ranges between 3000-12000 SAR, with the majority falling within the 4000-7000 SAR range.
+        The picture illustrates the expected salary for recent graduates, in ranges between 3000-12000 SAR, with the majority falling within the 4000-7000 SAR range.
         """
     )
     col1, col2 = st.columns(2)
