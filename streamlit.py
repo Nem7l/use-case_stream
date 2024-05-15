@@ -2,7 +2,7 @@ import streamlit as st
 
 def main():
 
-    st.title("My Jop-posting app")
+    st.title("My Jop Posting APP")
 
 
   
