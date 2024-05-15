@@ -72,7 +72,7 @@ def main():
     )
     st.image("Q4.png", use_column_width=True)
 
-     st.markdown(
+    st.markdown(
         """
         ##  Job opportunities salary can differ from city to another with the maximum salary in Riyadh as you can see in the chart below
         """
